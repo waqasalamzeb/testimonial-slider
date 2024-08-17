@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.container {
+    text-align: center;
+    background: white;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    width: 417px;
+}
+
+.person-container {
+    margin-bottom: 10px;
+}
+
+.person-img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.name {
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.designation {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+.title {
+    font-size: 14px;
+    color: #333;
+    margin: 5px 0;
+    padding: 0 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007BFF;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
